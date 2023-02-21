@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tilt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: auto;
+   
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    transform-style: preserve-3d
+}
+
+.product {
+    width: 50vw;
+    height: auto;
+    transform: translateZ(20px);
+    border-radius: 8px;
+}
+
+.frame {
+    border: solid #000;
+    border-width: 3px;
+    border-radius: 12px;
+}
